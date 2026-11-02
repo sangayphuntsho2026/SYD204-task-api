@@ -1,0 +1,25 @@
+# SYD204 Task API
+
+A full-stack Task List application built with Node.js, Express, MySQL, and Vanilla JavaScript.
+
+## Features
+- Full CRUD operations (Create, Read, Update, Delete)
+- Professional MVC (Model-View-Controller) architecture
+- Connected to Aiven Cloud MySQL database
+- Custom frontend UI served via Express static middleware
+- Input validation and error handling
+
+## How to Run Locally
+1. Clone this repository.
+2. Run `npm install` to install dependencies.
+3. Create a `.env` file in the root directory and add your database credentials (see `.env.example`).
+4. Run `node server-mvc.js` to start the server.
+5. Open `http://localhost:3000` in your browser.
+
+## API Endpoints
+- `GET /tasks` - Get all tasks
+- `POST /tasks` - Create a new task
+- `GET /tasks/:id` - Get a specific task
+- `PUT /tasks/:id` - Replace a task
+- `PATCH /tasks/:id` - Partially update a task
+- `DELETE /tasks/:id` - Delete a task
